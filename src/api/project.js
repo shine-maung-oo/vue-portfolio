@@ -21,7 +21,7 @@ const projects = [
     category: 1,
     image: "/images/yellowF.png",
     languages: "Figma",
-    url: "",
+    url: "#",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projects = [
     category: 1,
     image: "/images/ytkF.png",
     languages: "Figma",
-    url: "",
+    url: "#",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const projects = [
     category: 1,
     image: "/images/maxxvapeF.png",
     languages: "Figma",
-    url: "",
+    url: "#",
   },
   {
     id: 7,
@@ -93,7 +93,7 @@ const projects = [
     category: 1,
     image: "/images/bmiF.png",
     languages: "Figma",
-    url: "",
+    url: "#",
   },
   {
     id: 13,
@@ -117,7 +117,7 @@ const projects = [
     category: 1,
     image: "/images/shwemiF.png",
     languages: "Figma",
-    url: "",
+    url: "#",
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const projects = [
     category: 2,
     image: "/images/yellowpages.png",
     languages: "html, css, js, jquery, bootstrap and php",
-    url: "",
+    url: "#",
   },
 ];
 
