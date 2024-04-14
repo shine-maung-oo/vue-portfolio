@@ -12,7 +12,7 @@
         ></span>
       </div>
       
-      <h3 class="h3 form-title">Contact Form</h3>
+      <h3 class="h3 form-title">Contact Me</h3>
       <form @submit.prevent="submitForm" class="form">
         <div class="input-wrapper">
           <input
