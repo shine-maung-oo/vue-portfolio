@@ -223,13 +223,13 @@ body {
   .move > img {
     margin: 0 10px;
     width: 30px;
-    height: 30px;
+    height: 35px;
     width: auto;
   }
 
   .slideshow {
     height: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
   }
 }
 
