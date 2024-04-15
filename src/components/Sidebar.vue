@@ -8,7 +8,7 @@
       <div class="info-content">
         <h1 class="name" title="Shine Maung Oo">Shine Maung Oo</h1>
 
-        <p class="title">Web developer</p>
+        <p class="title" data-text="Web developer">Web developer</p>
       </div>
 
       <button class="info_more-btn" @click="isOpen = !isOpen">
@@ -127,3 +127,5 @@ function toggleMenu() {
   isOpen = !isOpen;
 }
 </script>
+<style>
+</style>

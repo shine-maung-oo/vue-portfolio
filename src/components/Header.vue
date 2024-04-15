@@ -1,5 +1,9 @@
 <template>
   <nav class="navbar">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
     <ul class="navbar-list">
       <li class="navbar-item">
         <RouterLink to="/">About</RouterLink>
@@ -19,3 +23,5 @@
     </ul>
   </nav>
 </template>
+<style>
+</style>

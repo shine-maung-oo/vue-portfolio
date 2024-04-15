@@ -11,7 +11,7 @@
           ><ion-icon name="close-circle-outline"></ion-icon
         ></span>
       </div>
-      
+
       <h3 class="h3 form-title">Contact Me</h3>
       <form @submit.prevent="submitForm" class="form">
         <div class="input-wrapper">
@@ -49,7 +49,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 
 const name = ref("");
 const email = ref("");
@@ -102,6 +102,9 @@ const submitForm = () => {
     }, 5000);
   });
 };
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 <style>
 </style>

@@ -109,7 +109,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import projects from "../api/project.js";
 import categories from "../api/category.js";
 
@@ -136,6 +136,10 @@ const selectCategory = (id) => {
   selectedCategory.value = id;
   isSelectListOpen.value = false;
 };
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
 <style>
