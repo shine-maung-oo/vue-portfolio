@@ -11,7 +11,7 @@
         <p class="title" data-text="Web developer">Web developer</p>
       </div>
 
-      <button class="info_more-btn" @click="isOpen = !isOpen">
+      <button class="info_more-btn" @click="toggleMenu">
         <span>Show Contacts</span>
 
         <ion-icon name="chevron-down"></ion-icon>
@@ -120,12 +120,24 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-let isOpen = ref(false);
+import { useRouter } from "vue-router";
+import { ref, onMounted } from "vue";
 
-function toggleMenu() {
-  isOpen = !isOpen;
-}
+const router = useRouter();
+const isOpen = ref(false);
+
+const toggleMenu = () => {
+  isOpen.value = !isOpen.value;
+};
+
+const handleNavigation = () => {
+  isOpen.value = false;
+};
+
+onMounted(() => {
+  router.afterEach(handleNavigation);
+});
 </script>
+
 <style>
 </style>

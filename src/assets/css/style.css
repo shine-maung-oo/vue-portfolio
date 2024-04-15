@@ -236,7 +236,7 @@ body {
       width: 0;
     }
     50% {
-      width: 81%;
+      width: 82%;
     }
     100% {
       width: 0;
@@ -496,7 +496,6 @@ main {
   white-space: nowrap;
   animation: animate 4s steps(14) infinite;
 }
-
 
 .info_more-btn {
   position: absolute;
