@@ -207,11 +207,11 @@ body {
   width: auto;
 }
 
-.move > img:nth-child(odd){
+.move > img:nth-child(odd) {
   animation: shakeUp 2.5s linear infinite;
 }
 
-.move > img:nth-child(even){
+.move > img:nth-child(even) {
   animation: shakeDown 2.5s linear infinite;
 }
 
@@ -230,6 +230,17 @@ body {
   .slideshow {
     height: 45px;
     margin-bottom: 30px !important;
+  }
+  @keyframes animate {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 81%;
+    }
+    100% {
+      width: 0;
+    }
   }
 }
 
@@ -416,12 +427,24 @@ main {
   transition: var(--transition-2);
 }
 
-@media (max-width:767px){
+@media (min-width: 767px) {
+  @keyframes animate {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 76%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+}
+@media (max-width: 767px) {
   .sidebar.active {
     max-height: 455px;
   }
 }
-
 
 .sidebar-info {
   position: relative;
@@ -453,7 +476,6 @@ main {
   animation: shake 2.5s linear infinite;
 }
 
-
 .info-content .title {
   color: transparent;
   /* background: var(--onyx); */
@@ -471,20 +493,10 @@ main {
   color: var(--white-1);
   overflow: hidden;
   border-right: 2px solid var(--jet);
-  animation: animate 4s steps(13) infinite;
   white-space: nowrap;
+  animation: animate 4s steps(14) infinite;
 }
-@keyframes animate {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 75%;
-  }
-  100% {
-    width: 0;
-  }
-}
+
 
 .info_more-btn {
   position: absolute;
@@ -1493,7 +1505,7 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 580px screen
  */
 
-@media (min-width:580px) and (max-width:992px){
+@media (min-width: 580px) and (max-width: 992px) {
   .sidebar.active {
     max-height: 660px;
   }
@@ -2206,7 +2218,6 @@ textarea.form-input::-webkit-resizer {
     transform: translateY(0px);
   }
 }
-
 
 @keyframes shakeUp {
   0% {
