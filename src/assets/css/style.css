@@ -182,17 +182,18 @@ body {
 \*-----------------------------------*/
 
 .slideshow {
-  height: 50px;
+  height: 60px;
   margin-top: 30px;
   margin-bottom: 40px;
   position: relative;
   transform: translate3d(0, 0, 0);
   display: flex;
   overflow: hidden;
+  align-items: center;
 }
 
 .move {
-  height: 100%;
+  height: fit-content;
   transform: translate3d(0, 0, 0);
   display: flex;
   justify-content: space-between;
@@ -204,6 +205,14 @@ body {
   width: 50px;
   height: 50px;
   width: auto;
+}
+
+.move > img:nth-child(odd){
+  animation: shakeUp 2.5s linear infinite;
+}
+
+.move > img:nth-child(even){
+  animation: shakeDown 2.5s linear infinite;
 }
 
 .slideshow:hover .move {
@@ -219,7 +228,8 @@ body {
   }
 
   .slideshow {
-    height: 30px;
+    height: 45px;
+    margin-bottom: 30px;
   }
 }
 
@@ -680,6 +690,7 @@ main {
 
 .service-icon-box {
   margin-bottom: 10px;
+  animation: shake 2.5s linear infinite;
 }
 
 .service-icon-box img {
@@ -2193,5 +2204,30 @@ textarea.form-input::-webkit-resizer {
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+
+@keyframes shakeUp {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes shakeDown {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
   }
 }
