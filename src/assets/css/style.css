@@ -442,7 +442,7 @@ main {
 }
 @media (max-width: 767px) {
   .sidebar.active {
-    max-height: 455px;
+    max-height: 460px;
   }
 }
 
