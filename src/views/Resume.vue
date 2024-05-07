@@ -28,11 +28,11 @@
         </li>
 
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">High school</h4>
+          <h4 class="h4 timeline-item-title">High School Ohn Chaw</h4>
 
-          <span>2015 — 2016</span>
+          <span>2006 — 2016</span>
 
-          <p class="timeline-text">Grade - 10</p>
+          <p class="timeline-text">Basic Education High School</p>
         </li>
       </ol>
     </section>
@@ -48,7 +48,7 @@
 
       <ol class="timeline-list">
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">Web developer at Host Myanmar</h4>
+          <h4 class="h4 timeline-item-title">Full-Stack Web developer at Host Myanmar</h4>
 
           <span>01/2023 — Present</span>
 

@@ -227,7 +227,7 @@ body {
     }
 
     50% {
-      width: 85%;
+      width: 90%;
     }
 
     100% {
@@ -426,7 +426,7 @@ main {
     }
 
     50% {
-      width: 79%;
+      width: 86%;
     }
 
     100% {
@@ -490,7 +490,7 @@ main {
   overflow: hidden;
   border-right: 1px solid var(--orange-yellow-crayola);
   white-space: nowrap;
-  animation: animate 4s steps(14) infinite, blink-caret .5s step-end infinite;
+  animation: animate 10s steps(25) infinite, blink-caret .5s step-end infinite;
 }
 
 .info_more-btn {

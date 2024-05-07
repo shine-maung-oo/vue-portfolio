@@ -6,7 +6,7 @@
 
     <section class="about-text">
       <p>
-        I'm web developer from Yangon, Myanmar, working in web development for
+        I'm full-stack web developer from Yangon, Myanmar, working in web development for
         website, web software and web application. I enjoy turning complex
         problems into simple, beautiful and intuitive designs.
       </p>
@@ -19,7 +19,7 @@
         creative way.
       </p>
       <p>
-        Web Developer with overly 1 year of hands-on experience in designing and
+        Full-Stack Web Developer with overly 1 year and 5 months of hands-on experience in designing and
         maintaining responsive websites within the technology and service
         industries but passionate in Front-end. Committed to enhancing the
         accessibility and usability of modern websites. A meticulous attention

@@ -8,7 +8,7 @@
       <div class="info-content">
         <h1 class="name" title="Shine Maung Oo">Shine Maung Oo</h1>
 
-        <p class="title" data-text="Web developer">Web developer</p>
+        <p class="title" data-text="Full-Stack Web Developer">Full-Stack Web Developer</p>
       </div>
 
       <button class="info_more-btn" @click="toggleMenu">
