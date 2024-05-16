@@ -83,7 +83,7 @@
           <div class="contact-info">
             <p class="contact-title">CV Form</p>
             <a
-              href="/pdf/shinemaungoocvresume.pdf"
+              href="/pdf/Shine_Maung_Oo_CV_Resume.pdf"
               class="contact-link"
               target="_blank"
               >Download</a
