@@ -6,25 +6,14 @@
 
     <section class="about-text">
       <p>
-        I'm full-stack web developer from Yangon, Myanmar, working in web development for
-        website, web software and web application. I enjoy turning complex
-        problems into simple, beautiful and intuitive designs.
+        I am a full-stack web developer from Yangon, Myanmar, specializing in creating websites, web software, and web applications. I enjoy transforming complex problems into simple, elegant, and user-friendly designs.
       </p>
 
       <p>
-        My job is to build your website so that it is functional and
-        user-friendly but at the same time attractive. Moreover, I add personal
-        touch to your product and make sure that is eye-catching and easy to
-        use. My aim is to bring across your message and identity in the most
-        creative way.
+        My role is to develop functional and visually appealing websites that are easy to use. By combining advanced design with intuitive usability, I showcase my skills effectively.
       </p>
       <p>
-        Full-Stack Web Developer with overly 1 year and 5 months of hands-on experience in designing and
-        maintaining responsive websites within the technology and service
-        industries but passionate in Front-end. Committed to enhancing the
-        accessibility and usability of modern websites. A meticulous attention
-        to detail drives my dedication to excellence in every project. I
-        contribute to building robust and user-friendly web applications.
+        With over 1 year and 5 months of experience, I have a strong passion for front-end development. I am dedicated to creating accessible and user-friendly websites, consistently striving for excellence in every project. My contributions help build stable and easy-to-use web applications.
       </p>
     </section>
 
