@@ -13,6 +13,57 @@
       </div>
 
       <h3 class="h3 form-title">Contact Me</h3>
+      <div class="input-wrapper">
+        <div class="contact-item">
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+            <a href="mailto:shinemaungoo.smo@gmail.com" class="contact-link"
+              >shinemaungoo.smo@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-info">
+            <p class="contact-title">Phone</p>
+
+            <a href="tel:+09979092815" class="contact-link">+959 979092815</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-info">
+            <p class="contact-title">Github</p>
+            <a
+              href="https://github.com/shine-maung-oo"
+              class="contact-link"
+              target="_blank"
+              >shine-maung-oo</a
+            >
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-info">
+            <p class="contact-title">LinkedIn</p>
+            <a href="https://www.linkedin.com/in/shinemaungoo" class="contact-link"
+              >shinemaungoo</a
+            >
+          </div>
+        </div>
+        <div class="contact-item">
+
+          <div class="contact-info">
+            <p class="contact-title">CV Form</p>
+            <a
+              href="/pdf/Shine_Maung_Oo_CV_Resume.pdf"
+              class="contact-link"
+              target="_blank"
+              >Download</a
+            >
+          </div>
+        </div>
+      </div>
+      <h3 class="h3 form-title">Send Me A Message</h3>
       <form @submit.prevent="submitForm" class="form">
         <div class="input-wrapper">
           <input

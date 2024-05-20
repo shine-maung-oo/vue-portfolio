@@ -6,14 +6,20 @@
 
     <section class="about-text">
       <p>
-        I am a full-stack web developer from Yangon, Myanmar, specializing in creating websites, web software, and web applications. I enjoy transforming complex problems into simple, elegant, and user-friendly designs.
+        Hi, I'm Shine Maung Oo, a web developer from Yangon, Myanmar, with a
+        passion for front-end development. I specialize in creating dynamic,
+        responsive web applications, focusing on technologies like JavaScript
+        and frameworks such as React and Vue.js.
       </p>
-
       <p>
-        My role is to develop functional and visually appealing websites that are easy to use. By combining advanced design with intuitive usability, I showcase my skills effectively.
+        While I have experience with backend development using PHP and Laravel,
+        my true passion lies in crafting intuitive and engaging user interfaces.
+        I believe that a well-designed interface significantly enhances user
+        experience and satisfaction.
       </p>
       <p>
-        With over 1 year and 5 months of experience, I have a strong passion for front-end development. I am dedicated to creating accessible and user-friendly websites, consistently striving for excellence in every project. My contributions help build stable and easy-to-use web applications.
+        I'm always eager to learn new technologies and improve my skills.
+        Connect with me on <a href="https://www.linkedin.com/in/shinemaungoo" class="about-link">LinkedIn</a> or <a href="mailto:shinemaungoo.smo@gmail.com" class="about-link">shinemaungoo.smo@gmail.com</a> .
       </p>
     </section>
 
@@ -66,6 +72,33 @@
 
     <section class="skill">
       <h3 class="h3 skills-title">Skills</h3>
+      <ol class="timeline-list">
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            HTML & CSS
+          </h4>
+          <span> Strong foundation in web design and responsive layouts.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Javascript
+          </h4>
+          <span> Advanced knowledge, with experience in frameworks like React and Vue.js.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            TypeScript
+          </h4>
+          <span> Experience in building scalable web applications.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            PHP
+          </h4>
+          <span> Proficient in backend development using Laravel.</span>
+        </li>
+        
+      </ol>
       <div class="slideshow" style="margin-bottom: 0">
         <div class="move">
           <img src="/public/images/html5.svg" alt="icon" />

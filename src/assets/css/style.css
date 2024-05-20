@@ -571,6 +571,14 @@ main {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
+.contact-link{
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-link:hover{
+  text-decoration: underline;
+}
 
 .contact-info address {
   font-style: normal;
@@ -656,6 +664,20 @@ main {
 
 .about-text p {
   margin-bottom: 15px;
+}
+
+.about-link{
+  display: inline;
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-link:hover{
+  text-decoration: underline;
 }
 
 /**
@@ -989,6 +1011,16 @@ main {
   content: "";
   position: absolute;
   top: -25px;
+  left: -30px;
+  width: 1px;
+  height: calc(100% + 50px);
+  background: var(--jet);
+}
+
+.timeline-item:first-child::before{
+  content: "";
+  position: absolute;
+  top: 5px;
   left: -30px;
   width: 1px;
   height: calc(100% + 50px);
@@ -1371,9 +1403,19 @@ ul.timeline-text li::before {
   margin-bottom: 10px;
 }
 
-.form-title {
+.contact-form a{
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form a:hover{
+  text-decoration: underline;
+}
+
+.form-title, .contact-form .contacts-list {
   margin-bottom: 20px;
 }
+
 
 .input-wrapper {
   display: grid;

@@ -121,6 +121,33 @@
 
     <section class="skill">
       <h3 class="h3 skills-title">Skills</h3>
+      <ol class="timeline-list">
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            HTML & CSS
+          </h4>
+          <span> Strong foundation in web design and responsive layouts.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Javascript
+          </h4>
+          <span> Advanced knowledge, with experience in frameworks like React and Vue.js.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            TypeScript
+          </h4>
+          <span> Experience in building scalable web applications.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            PHP
+          </h4>
+          <span> Proficient in backend development using Laravel.</span>
+        </li>
+        
+      </ol>
       <div class="slideshow">
         <div class="move">
           <img src="/public/images/html5.svg" alt="icon" />
