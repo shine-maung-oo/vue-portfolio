@@ -146,7 +146,20 @@
           </h4>
           <span> Proficient in backend development using Laravel.</span>
         </li>
-        
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Bootstrap</h4>
+          <span>
+            Proficient in using Bootstrap for responsive and modern web
+            design.</span
+          >
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Tailwind CSS</h4>
+          <span>
+            Skilled in using Tailwind CSS for utility-first CSS framework to
+            build custom designs quickly.
+          </span>
+        </li>
       </ol>
       <div class="slideshow">
         <div class="move">

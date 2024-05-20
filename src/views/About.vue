@@ -19,7 +19,15 @@
       </p>
       <p>
         I'm always eager to learn new technologies and improve my skills.
-        Connect with me on <a href="https://www.linkedin.com/in/shinemaungoo" class="about-link">LinkedIn</a> or <a href="mailto:shinemaungoo.smo@gmail.com" class="about-link">shinemaungoo.smo@gmail.com</a> .
+        Connect with me on
+        <a href="https://www.linkedin.com/in/shinemaungoo" class="about-link"
+          >LinkedIn</a
+        >
+        or
+        <a href="mailto:shinemaungoo.smo@gmail.com" class="about-link"
+          >shinemaungoo.smo@gmail.com</a
+        >
+        .
       </p>
     </section>
 
@@ -74,30 +82,38 @@
       <h3 class="h3 skills-title">Skills</h3>
       <ol class="timeline-list">
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            HTML & CSS
-          </h4>
+          <h4 class="h4 timeline-item-title">HTML & CSS</h4>
           <span> Strong foundation in web design and responsive layouts.</span>
         </li>
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Javascript
-          </h4>
-          <span> Advanced knowledge, with experience in frameworks like React and Vue.js.</span>
+          <h4 class="h4 timeline-item-title">Javascript</h4>
+          <span>
+            Advanced knowledge, with experience in frameworks like React and
+            Vue.js.</span
+          >
         </li>
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            TypeScript
-          </h4>
+          <h4 class="h4 timeline-item-title">TypeScript</h4>
           <span> Experience in building scalable web applications.</span>
         </li>
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            PHP
-          </h4>
+          <h4 class="h4 timeline-item-title">PHP</h4>
           <span> Proficient in backend development using Laravel.</span>
         </li>
-        
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Bootstrap</h4>
+          <span>
+            Proficient in using Bootstrap for responsive and modern web
+            design.</span
+          >
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Tailwind CSS</h4>
+          <span>
+            Skilled in using Tailwind CSS for utility-first CSS framework to
+            build custom designs quickly.
+          </span>
+        </li>
       </ol>
       <div class="slideshow" style="margin-bottom: 0">
         <div class="move">
