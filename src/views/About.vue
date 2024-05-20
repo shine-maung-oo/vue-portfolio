@@ -20,7 +20,7 @@
       <p>
         I'm always eager to learn new technologies and improve my skills.
         Connect with me on
-        <a href="https://www.linkedin.com/in/shinemaungoo" class="about-link"
+        <a href="https://www.linkedin.com/in/shinemaungoo" class="about-link" target="_blank" title="Shine Maung Oo"
           >LinkedIn</a
         >
         or

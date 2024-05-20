@@ -45,7 +45,7 @@
         <div class="contact-item">
           <div class="contact-info">
             <p class="contact-title">LinkedIn</p>
-            <a href="https://www.linkedin.com/in/shinemaungoo" class="contact-link"
+            <a href="https://www.linkedin.com/in/shinemaungoo" class="contact-link" target="_blank" title="Shine Maung Oo"
               >shinemaungoo</a
             >
           </div>
