@@ -76,9 +76,10 @@
       <ul class="project-list">
         <li
           class="project-item active"
-          v-for="project in filteredProjects"
-          :key="project.id"
+          v-for="(project,index) in filteredProjects"
+          :key="index"
         >
+      
           <a :href="project.url" target="_blank">
             <figure class="project-img">
               <div class="project-item-icon-box">

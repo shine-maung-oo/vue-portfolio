@@ -1,6 +1,12 @@
 const projects = [
   {
-    id: 1,
+    title: "Game Hub",
+    category: 2,
+    image: "/images/gamehub.png",
+    languages: "react , typescript and chakra ui",
+    url: "https://reactgamehub.vercel.app/",
+  },
+  {
     title: "MEC stock pos",
     category: 3,
     image: "/images/mec.png",
@@ -8,7 +14,6 @@ const projects = [
     url: "https://mec.hmmdemo.com/",
   },
   {
-    id: 2,
     title: "Grand Winner Printing",
     category: 3,
     image: "/images/gwinner.png",
@@ -16,7 +21,6 @@ const projects = [
     url: "https://gwinner.hmm-staging.com/",
   },
   {
-    id: 3,
     title: "Yellow Pages UI",
     category: 1,
     image: "/images/yellowF.png",
@@ -24,7 +28,6 @@ const projects = [
     url: "#",
   },
   {
-    id: 4,
     title: "Bagan Management Institute",
     category: 2,
     image: "/images/bmi.png",
@@ -32,7 +35,6 @@ const projects = [
     url: "http://baganmanagementinstitute.com",
   },
   {
-    id: 5,
     title: "Ye' Ta Khon Group UI",
     category: 1,
     image: "/images/ytkF.png",
@@ -40,7 +42,6 @@ const projects = [
     url: "#",
   },
   {
-    id: 6,
     title: "Maxx Vape UI",
     category: 1,
     image: "/images/maxxvapeF.png",
@@ -48,7 +49,6 @@ const projects = [
     url: "#",
   },
   {
-    id: 7,
     title: "Asonemart Ecommerce",
     category: 3,
     image: "/images/asonemart.png",
@@ -56,7 +56,6 @@ const projects = [
     url: "https://asonemart.com/",
   },
   {
-    id: 8,
     title: "Ye' Ta Khon Group",
     category: 2,
     image: "/images/ytk.png",
@@ -64,7 +63,6 @@ const projects = [
     url: "https://yetakhongroup.com",
   },
   {
-    id: 9,
     title: "Shwe Mi Furniture",
     category: 2,
     image: "/images/shwemi.png",
@@ -72,7 +70,6 @@ const projects = [
     url: "http://shwemifurniture.com/",
   },
   {
-    id: 10,
     title: "Stu Express",
     category: 3,
     image: "/images/stuexpress.png",
@@ -80,7 +77,6 @@ const projects = [
     url: "http://stuexpress.hmm-staging.com",
   },
   {
-    id: 11,
     title: "Innopex Myanmar",
     category: 2,
     image: "/images/innopex.png",
@@ -88,7 +84,6 @@ const projects = [
     url: "https://innopexmyanmar.com",
   },
   {
-    id: 12,
     title: "BMI UI",
     category: 1,
     image: "/images/bmiF.png",
@@ -96,7 +91,6 @@ const projects = [
     url: "#",
   },
   {
-    id: 13,
     title: "Myanmar Brewery",
     category: 3,
     image: "/images/mm-beer.png",
@@ -104,7 +98,6 @@ const projects = [
     url: "http://myanmar-brewery.com/",
   },
   {
-    id: 14,
     title: "Maung Sein Win",
     category: 2,
     image: "/images/maungsw.png",
@@ -112,7 +105,6 @@ const projects = [
     url: "https://www.maungseinwinandbrothers.com/",
   },
   {
-    id: 15,
     title: "Shwe Mi Furniture UI",
     category: 1,
     image: "/images/shwemiF.png",
@@ -120,7 +112,6 @@ const projects = [
     url: "#",
   },
   {
-    id: 16,
     title: "Maxx-vape",
     category: 2,
     image: "/images/maxxvape.png",
@@ -128,7 +119,6 @@ const projects = [
     url: "https://maxx-vape.com",
   },
   {
-    id: 17,
     title: "Moe Kaung Myay",
     category: 2,
     image: "/images/mkm.png",
@@ -136,7 +126,6 @@ const projects = [
     url: "https://moekaungmyay.com/",
   },
   {
-    id: 18,
     title: "Yellow Pages UI",
     category: 2,
     image: "/images/yellowpages.png",
