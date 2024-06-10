@@ -48,7 +48,7 @@
           </div>
         </li>
 
-        <li class="contact-item">
+        <!-- <li class="contact-item">
           <div class="icon-box">
             <ion-icon name="calendar-outline"></ion-icon>
           </div>
@@ -58,7 +58,7 @@
 
             <time datetime="2000-09-27">Sep 27, 2000</time>
           </div>
-        </li>
+        </li> -->
 
         <li class="contact-item">
           <div class="icon-box">
