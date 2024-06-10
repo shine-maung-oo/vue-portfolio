@@ -5,18 +5,17 @@
     </header>
 
     <section class="projects">
-      
       <ul class="project-list">
         <li
           class="project-item active"
-          v-for="(project,index) in projects"
+          v-for="(project, index) in projects"
           :key="index"
         >
-      
           <a :href="project.url" target="_blank">
             <figure class="project-img">
               <div class="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+                <!-- <ion-icon name="arrow-forward-circle-outline"></ion-icon> -->
+                <ion-icon name="arrow-forward-outline"></ion-icon>
               </div>
 
               <img :src="project.image" :alt="project.title" loading="lazy" />
