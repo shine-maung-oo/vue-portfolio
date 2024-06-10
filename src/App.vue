@@ -2,8 +2,8 @@
 import { RouterLink, RouterView } from "vue-router";
 import Sidebar from "./components/Sidebar.vue";
 import Header from "./components/Header.vue";
+import Download from "./components/Download.vue";
 import NotFound from "./views/NotFound.vue";
-
 </script>
 
 <template>
@@ -16,6 +16,7 @@ import NotFound from "./views/NotFound.vue";
     <div class="main-content">
       <Header />
       <RouterView />
+      <Download />
     </div>
   </main>
 </template>

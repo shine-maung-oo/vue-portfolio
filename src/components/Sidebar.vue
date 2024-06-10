@@ -8,7 +8,9 @@
       <div class="info-content">
         <h1 class="name" title="Shine Maung Oo">Shine Maung Oo</h1>
 
-        <p class="title" data-text="Full-Stack Web Developer">Full-Stack Web Developer</p>
+        <p class="title" data-text="Full-Stack Web Developer">
+          Full-Stack Web Developer
+        </p>
       </div>
 
       <button class="info_more-btn" @click="toggleMenu">
@@ -48,18 +50,6 @@
           </div>
         </li>
 
-        <!-- <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="calendar-outline"></ion-icon>
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">Birthday</p>
-
-            <time datetime="2000-09-27">Sep 27, 2000</time>
-          </div>
-        </li> -->
-
         <li class="contact-item">
           <div class="icon-box">
             <ion-icon name="logo-github"></ion-icon>
@@ -77,42 +67,33 @@
         </li>
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="download-outline"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
           </div>
 
           <div class="contact-info">
-            <p class="contact-title">CV Form</p>
+            <p class="contact-title">Facebook</p>
             <a
-              href="/pdf/Shine_Maung_Oo_CV_Resume.pdf"
+              href="https://www.facebook.com/profile.php?id=100036778868811"
               class="contact-link"
               target="_blank"
-              >Download</a
+              >Shine Maung Oo</a
             >
           </div>
         </li>
-      </ul>
-
-      <div class="separator"></div>
-
-      <ul class="social-list">
-        <li class="social-item">
-          <a
-            href="https://www.facebook.com/profile.php?id=100036778868811"
-            class="social-link"
-            target="_blank"
-          >
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
-
-        <li class="social-item">
-          <a
-            href="https://www.linkedin.com/in/shinemaungoo/"
-            class="social-link"
-            target="_blank"
-          >
+        <li class="contact-item">
+          <div class="icon-box">
             <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">LinkedIn</p>
+            <a
+              href="https://www.linkedin.com/in/shinemaungoo/"
+              class="contact-link"
+              target="_blank"
+              >shinemaungooo</a
+            >
+          </div>
         </li>
       </ul>
     </div>

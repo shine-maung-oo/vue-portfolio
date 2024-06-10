@@ -50,18 +50,6 @@
             >
           </div>
         </div>
-        <div class="contact-item">
-
-          <div class="contact-info">
-            <p class="contact-title">CV Form</p>
-            <a
-              href="/pdf/Shine_Maung_Oo_CV_Resume.pdf"
-              class="contact-link"
-              target="_blank"
-              >Download</a
-            >
-          </div>
-        </div>
       </div>
       <h3 class="h3 form-title">Send Me A Message</h3>
       <form @submit.prevent="submitForm" class="form">
