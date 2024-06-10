@@ -1017,11 +1017,11 @@ main {
   background: var(--jet);
 }
 
-.timeline-item:first-child::before{
+.skill .timeline-item:first-child::before{
   content: "";
   position: absolute;
   top: 5px;
-  left: -30px;
+  /* left: -30px; */
   width: 1px;
   height: calc(100% + 50px);
   background: var(--jet);

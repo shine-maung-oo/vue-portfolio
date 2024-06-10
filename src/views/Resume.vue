@@ -19,11 +19,11 @@
             University of Computer Studies, Yangon(UCSY)
           </h4>
 
-          <span>2017 — current</span>
+          <span>2017 — 2020</span>
 
           <p class="timeline-text">
             Major - Computer Science <br />
-            Grade - Third Year
+            <!-- Grade - Third Year -->
           </p>
         </li>
 
@@ -48,7 +48,9 @@
 
       <ol class="timeline-list">
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">Full-Stack Web developer at Host Myanmar</h4>
+          <h4 class="h4 timeline-item-title">
+            Full-Stack Web developer at Host Myanmar
+          </h4>
 
           <span>01/2023 — Present</span>
 
@@ -123,28 +125,31 @@
       <h3 class="h3 skills-title">Skills</h3>
       <ol class="timeline-list">
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            HTML & CSS
-          </h4>
+          <h4 class="h4 timeline-item-title">HTML & CSS</h4>
           <span> Strong foundation in web design and responsive layouts.</span>
         </li>
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Javascript
-          </h4>
-          <span> Advanced knowledge, with experience in frameworks like React and Vue.js.</span>
+          <h4 class="h4 timeline-item-title">Javascript</h4>
+          <span>
+            Advanced knowledge, with experience in frameworks like React and
+            Vue.js.</span
+          >
         </li>
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            TypeScript
-          </h4>
+          <h4 class="h4 timeline-item-title">TypeScript</h4>
           <span> Experience in building scalable web applications.</span>
         </li>
         <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            PHP
-          </h4>
+          <h4 class="h4 timeline-item-title">PHP</h4>
           <span> Proficient in backend development using Laravel.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">WordPress</h4>
+          <span>
+            Proficient in creating and managing websites using WordPress, with
+            experience in theme and plugin development, and customizing designs
+            and functionality to meet client needs.
+          </span>
         </li>
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">Bootstrap</h4>

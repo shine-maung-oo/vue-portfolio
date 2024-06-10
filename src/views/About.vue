@@ -20,7 +20,11 @@
       <p>
         I'm always eager to learn new technologies and improve my skills.
         Connect with me on
-        <a href="https://www.linkedin.com/in/shinemaungoo" class="about-link" target="_blank" title="Shine Maung Oo"
+        <a
+          href="https://www.linkedin.com/in/shinemaungoo"
+          class="about-link"
+          target="_blank"
+          title="Shine Maung Oo"
           >LinkedIn</a
         >
         or
@@ -99,6 +103,14 @@
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">PHP</h4>
           <span> Proficient in backend development using Laravel.</span>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">WordPress</h4>
+          <span>
+            Proficient in creating and managing websites using WordPress, with
+            experience in theme and plugin development, and customizing designs
+            and functionality to meet client needs.
+          </span>
         </li>
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">Bootstrap</h4>
