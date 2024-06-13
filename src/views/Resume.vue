@@ -49,7 +49,7 @@
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Full-Stack Web developer at Host Myanmar
+            Web developer at Host Myanmar
           </h4>
 
           <span>01/2023 — Present</span>

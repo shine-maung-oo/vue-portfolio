@@ -239,7 +239,7 @@ body {
     }
 
     50% {
-      width: 90%;
+      width: 80%;
     }
 
     100% {
@@ -438,7 +438,7 @@ main {
     }
 
     50% {
-      width: 86%;
+      width: 75%;
     }
 
     100% {
@@ -502,7 +502,7 @@ main {
   overflow: hidden;
   border-right: 1px solid var(--orange-yellow-crayola);
   white-space: nowrap;
-  animation: animate 10s steps(25) infinite, blink-caret 0.5s step-end infinite;
+  animation: animate 7s steps(20) infinite, blink-caret 0.4s step-end infinite;
 }
 
 .info_more-btn {
@@ -2326,9 +2326,8 @@ textarea.form-input::-webkit-resizer {
 
 @media screen and (max-width: 992px) {
   .download {
-    position: fixed;
-    bottom: 50%;
-    right: 10px;
+    bottom: 70px;
+    right: 5px;
   }
 }
 

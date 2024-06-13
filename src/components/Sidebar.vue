@@ -8,8 +8,8 @@
       <div class="info-content">
         <h1 class="name" title="Shine Maung Oo">Shine Maung Oo</h1>
 
-        <p class="title" data-text="Full-Stack Web Developer">
-          Full-Stack Web Developer
+        <p class="title" data-text="Web Developer">
+          Web Developer
         </p>
       </div>
 
