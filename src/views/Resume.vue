@@ -22,7 +22,7 @@
           <span>2017 — 2020</span>
 
           <p class="timeline-text">
-            Major - Computer Science <br />
+            Computer Science <br />
             <!-- Grade - Third Year -->
           </p>
         </li>
@@ -49,41 +49,61 @@
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Web developer at Host Myanmar
+            Host Myanmar Software Solutions
           </h4>
-
           <span>01/2023 — Present</span>
-
-          <ul class="timeline-text">
-            <li>
-              Developed and coded more than 40 websites and web applications for
-              the Marketing Department, meeting project deadlines and ensuring a
-              visually appealing and user-friendly online presence for clients.
-            </li>
-            <li>
-              Managed and maintained data for university websites, all powered
-              by WordPress CMS, ensuring accurate and up-to-date information for
-              educational institutions.
-            </li>
-            <li>
-              Collaborated closely with the UI/UX department to enhance existing
-              web pages and develop new ones, resulting in improved user
-              experiences and increased user engagement.
-            </li>
-            <li>
-              Successfully implemented Laravel projects, including an e-commerce
-              project, pos system, cms and a Laravel Filament project,
-              demonstrating versatility in web development technologies.
-            </li>
-            <li>
-              Collaborated with cross-functional teams to create responsive and
-              user-friendly websites and web applications.
-            </li>
-            <li>
-              Utilized WordPress for content management and ensured consistency
-              and quality in website content.
-            </li>
-          </ul>
+          <br />
+          <section class="skill">
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  As a Frontend Developer
+                  <span> 01/2023 – 07/2023 </span>
+                </h4>
+                <ul class="timeline-text">
+                  <li>
+                    Designed and developed websites emphasizing intuitive UI/UX
+                    for diverse clients.
+                  </li>
+                  <li>
+                    Developed and maintained university and government websites,
+                    ensuring seamless compatibility and performance across
+                    devices.
+                  </li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  As a Backend Developer
+                  <span> 07/2023 – 01/2024 </span>
+                </h4>
+                <ul class="timeline-text">
+                  <li>
+                    Engineered server-side logic and databases, specializing in
+                    RESTful API development.
+                  </li>
+                  <li>
+                    Ensured robust scalability, security, and performance for
+                    web applications.
+                  </li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  As a Fullstack Developer
+                  <span> Present </span>
+                </h4>
+                <ul class="timeline-text">
+                  <li>
+                    Develops and maintains full-stack web applications, integrating frontend and backend components.
+                  </li>
+                  <li>
+                    Collaborates with teams to define features, conduct code reviews, and ensure high application quality standards.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
         </li>
 
         <li class="timeline-item">

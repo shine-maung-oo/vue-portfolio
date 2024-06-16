@@ -1,7 +1,7 @@
 <template>
   <div class="download">
     <a
-      href="/pdf/Shine_Maung_Oo_CV_Resume.pdf"
+      href="/pdf/Shine_Maung_Oo_CV.pdf"
       class="contact-link"
       target="_blank"
     >
